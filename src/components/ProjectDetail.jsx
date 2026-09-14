@@ -218,7 +218,7 @@ const ProjectDetail = ({ proyecto }) => {
                     text-neutral-500
                   "
                 >
-                  {stat.etiqueta}
+                  {stat.label}
                 </div>
               </div>
             ))}
