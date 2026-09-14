@@ -233,9 +233,35 @@ const lifeguard = {
     "Hacienda / AFECR",
   ],
 
-  impacto:
-    "La plataforma centralizó una operación que anteriormente se encontraba fragmentada entre diferentes procesos y herramientas, permitiendo gestionar el ciclo completo de asistencia desde un único sistema.",
+impacto: {
+  etiqueta: "Impacto",
 
+  titulo: "Una operación centralizada y conectada.",
+
+  descripcion:
+    "La plataforma permitió centralizar una operación que anteriormente se encontraba fragmentada entre diferentes procesos y herramientas, conectando el ciclo completo de asistencia dentro de un único sistema.",
+
+  tarjetas: [
+    {
+      etiqueta: "Operación",
+      titulo: "Un único flujo operativo.",
+      descripcion:
+        "Los diferentes equipos pueden trabajar sobre la misma información y dar seguimiento al caso desde su apertura hasta su cierre.",
+    },
+    {
+      etiqueta: "Automatización",
+      titulo: "Menos procesos manuales.",
+      descripcion:
+        "La generación de reportes, documentación, comunicaciones y otros procesos se integró dentro de la plataforma.",
+    },
+    {
+      etiqueta: "Integración",
+      titulo: "Servicios externos conectados.",
+      descripcion:
+        "Google, ChatGPT y Hacienda / AFECR forman parte del flujo operativo del sistema.",
+    },
+  ],
+},
   participacion: {
     descripcion:
       "Desarrollo integral desde la arquitectura y base de datos hasta los módulos, lógica de negocio, automatizaciones e integraciones externas.",
